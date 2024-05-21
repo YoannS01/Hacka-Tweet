@@ -1,0 +1,44 @@
+.tweet{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+.tweet_infos{
+    display: flex;
+}
+
+.logo_user{
+    height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  margin-right: 5px;
+  border-radius: 30px;
+}
+
+.user_firstname{
+ margin-left: 15px;
+    font-size: 22px;
+    font-weight: 800;
+    }
+    
+.user_id{
+        margin-left: 15px;
+    font-size: 22px;
+    color: grey;
+    }
+
+.content{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    }
+
+.icons_container{
+    margin-left: 15px; 
+    margin-bottom: 15px;
+}
+.p{
+    font-size: 22px;
+}

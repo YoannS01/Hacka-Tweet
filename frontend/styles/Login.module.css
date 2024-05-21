@@ -1,0 +1,58 @@
+.div_container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/twitter_bg.png");
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_left {
+  display: flex;
+  height: 20%;
+  width: 20%;
+  margin-left: 10%;
+}
+
+.div_right {
+  display: flex;
+  background-color: #141f27;
+  width: 65%;
+  height: 100%;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.logo_right {
+  display: flex;
+  height: 50px;
+  width: 60px;
+  margin-top: 3%;
+}
+
+.signup_button {
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #00acee;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signin_button {
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #141f27;
+  border-color: grey;
+  border-style: dashed;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #00acee;
+  font-weight: bold;
+  cursor: pointer;
+}
